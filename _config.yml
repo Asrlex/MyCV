@@ -81,7 +81,7 @@ content:
   - title: Idiomas # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         title: Dominio de idiomas
         sub_title: "Idioma nativo: Español"
         description: | # this will include new lines to allow paragraphs
@@ -187,7 +187,7 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
           
-          **Node**
+          **Node** <img style:"width:30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png" alt="Node.js Logo">
             - **Herramientas de grabación** (**CLIENTE**)
               - Herramientas web de **grabación de datos** y **gestión documental** para clientes de renombre nacionales y europeos.
               - **API REST** con express.js
@@ -223,7 +223,7 @@ content:
               - Interacción con **APIs de cliente**.
               - Despliegue en **Linux**.
 
-          **Java**
+          **Java** <img style:"width:30px" src="./images/java.png" alt="Java Logo">
             - **Agenda de operaciones** (**BANCA**)
               - Aplicación de escritorio para agendar, asignar y gestionar operaciones enviadas en Excel por gestorías.
               - GUI con **Java Swing**.
@@ -247,7 +247,7 @@ content:
               - JDBC a **MySQL**.
               - Identificación manual.
 
-          **Python**
+            **Python** <img style:"width:30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/48px-Python.svg.png?20101018043057" alt="Python Logo">
             - **Renombramiento de archivos** (**CLIENTE**)
               - Script que, a partir de un maestro en Excel, renombra una serie de archivos de un directorio concreto y los encarpeta según los filtros especificados.
               - CLI.

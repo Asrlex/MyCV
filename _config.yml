@@ -87,13 +87,13 @@ content:
           ¿Qué sería de la vida, si no tuviéramos el valor de intentar algo nuevo? (Vincent Van Gogh)
         description: | # this will include new lines to allow paragraphs
           
-          1.  **General**.
+          - **General**.
             - Alta exigencia y disciplina documentando y estructurando código y proyectos.
             - Seguimiento de buenas prácticas y estilos.
             - Experiencia con IDEs y editores como **VSCode, Eclipse, IntelliJ y PyCharm**.
             - Experiencia gestionando proyectos en **OpenProject**.
 
-          2.  **WebDev Full-Stack**: 3 años de experiencia profesional full-stack.
+          - **WebDev Full-Stack**: 3 años de experiencia profesional full-stack.
             *  **Back-end:**
               - Dominio de **Node.js** y **express.js.**
               - Dominio de mecanismos de **autenticación y login**, tanto manuales como mediante Passport (y opcionalmente la gestión del almacenamiento de sesiones).
@@ -110,7 +110,7 @@ content:
               - Dominio de **Bootstrap 4.0-5.2**.
               - Dominio de **React** con **JSX**.
 
-          3.  **Java:** 4 años de experiencia profesional.
+          - **Java:** 4 años de experiencia profesional.
             - Dominio de framework y filosofía de desarrollo **Spring MVC**.
             - Dominio de **Hibernate** como framework **ORM**.
             - Experiencia trabajando con patrón **MVC** con **Spring MVC** y **JavaFX**.
@@ -121,28 +121,28 @@ content:
             - Dominio API **POI** de Excel.
             - Aplicaciones **multihilo** .
 
-          4.  **Python**: 4 años de experiencia profesional.
+          - **Python**: 4 años de experiencia profesional.
             - Automatización de tareas de gestión de ficheros, reporting y análisis de datos.
             - Desarrollo de **APIs REST** en **Flask** con **OpenAPI**.
             - Dominio de API de **Excel**.
 
-          5.  **Bases de datos:** 7 años de experiencia profesional con relacionales (**MySQL, SQLServer y SQLite**) y 2 con no relacionales (**MongoDB**).
+          - **Bases de datos:** 7 años de experiencia profesional con relacionales (**MySQL, SQLServer y SQLite**) y 2 con no relacionales (**MongoDB**).
             - Triggers.
             - Limpieza y optimización de queries.
             - Batches.
 
-          6.  **Flow control.**
+          - **Flow control.**
             - **Git y Github** para control de versiones.
             - **Jenkins** para CI/CD.
 
-          7.  **Deployment**
+          - **Deployment**
             - Despliegues en **Microsoft Server**.
             - Despliegues en **Linux**.
             - Despliegues en **Docker**.
             - Despliegues desde Github a **Heroku** y **Firebase**.
             - Despliegues manuales en servidor propio (NAS, proyectos personales, etc.).
 
-          8.  **Misc.**
+          - **Misc.**
             - **Conocimientos de Groovy**.
             - **Conocimientos de C**.
             - **Conocimientos de Bash**.
@@ -162,19 +162,17 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          ¿Qué sería de la vida, si no tuviéramos el valor de intentar algo nuevo? (Vincent Van Gogh)
         description: | # this will include new lines to allow paragraphs
           
           **Node**
-            1.  **Herramientas de grabación** (**CLIENTE**)
+            - **Herramientas de grabación** (**CLIENTE**)
               - Herramientas web de **grabación de datos** y **gestión documental** para clientes de renombre nacionales y europeos.
               - **API REST** con express.js
               - Front con **BS 5.2,** **Sass** y **Ejs**.
               - Login manual.
               - Integración con SQLite y **SQLServer**.
               - Desplegadas en servidor con **Microsoft Server**.
-            2.  **Portal de empleados** (**RRHH**)
+            - **Portal de empleados** (**RRHH**)
               - Webapp para agrupar y mostrar todos los recursos disponibles para los empleados de la empresa, y accesos a otras aplicaciones y utilidades, así como gestión de facturación de los departamentos.
               - **API REST** con express.js
               - Front con **BS 5.2,** **Sass** y **Ejs**.
@@ -182,7 +180,7 @@ content:
               - Integración con SQLite y **SQLServer**.
               - Indexado de documentos en diferentes directorios y discos de red.
               - Desplegada en servidor con **Microsoft Server**.
-            3.  **Travel Journal** (**PERSONAL**)
+            - **Travel Journal** (**PERSONAL**)
               - **Webapp** de journaling de viajes que permite añadir y gestionar destinos agrupados en viajes.
               - API REST con express.js.
               - Front con **BS 5.2**, **Sass** y **Ejs**.
@@ -193,7 +191,7 @@ content:
               - Despliegue inicial en **Heroku** desde Github y transferido a Firebase.
               ![Landing Page](/mycv/images/trjournal1.png "Landing Page")
               ![Resources](/mycv/images/trjournal2.png "Resources")
-            4.  **Gestión de pólizas** (**SEGUROS**)
+            - **Gestión de pólizas** (**SEGUROS**)
               - Aplicación web para la gestión de pólizas de seguros y pensiones para cliente.
               - **API REST** con express.js.
               - Front con **React**, **BS 5.2**, **Sass** y **Ejs**.
@@ -203,48 +201,51 @@ content:
               - Despliegue en **Linux**.
 
           **Java**
-            1.  **Agenda de operaciones** (**BANCA**)
+            - **Agenda de operaciones** (**BANCA**)
               - Aplicación de escritorio para agendar, asignar y gestionar operaciones enviadas en Excel por gestorías.
               - GUI con **Java Swing**.
               - JDBC a **SQL Server**.
               - Identificación automática con usuario corporativo.
-            2.  **Control de moratorias** (**BANCA**)
+            - **Control de moratorias** (**BANCA**)
               - Aplicación de escritorio para controlar operaciones de moratorias post-covid.
               - GUI con **JavaFX**.
               - JDBC a **SQL Server**.
               - Identificación automática con usuario corporativo.
-            3.  **Control de vacaciones y ausencias** (**RRHH**)
+            - **Control de vacaciones y ausencias** (**RRHH**)
               - Herramienta de escritorio para controlar las vacaciones de todos los empleados de la empresa y la aprobación de solicitudes por los responsables. Control de ausencias por parte de responsables y RRHH, y gestión de los justificantes y motivos.
               - GUI con **JavaFX**.
               - Integración de calendarios y datepickers personalizados.
               - Integración con **SQL Server**.
               - **API Outlook** (pre-OAuth) para envío de correos de aprobación y confirmación.
               - Identificación automática con usuario corporativo.
-            4.  **Tracker** (**PERSONAL**)
+            - **Tracker** (**PERSONAL**)
               - Herramienta de escritorio para controlar progreso en diferentes proyectos o videojuegos a partir de una serie de parámetros iniciales.
               - GUI con **JavaFX**.
               - JDBC a **MySQL**.
               - Identificación manual.
 
           **Python**
-            1.  **Renombramiento de archivos** (**CLIENTE**)
+            - **Renombramiento de archivos** (**CLIENTE**)
               - Script que, a partir de un maestro en Excel, renombra una serie de archivos de un directorio concreto y los encarpeta según los filtros especificados.
               - CLI.
               - API Excel.
               - Bundled en .exe
-            2.  **Web-scraper** (**CLIENTE**)
+            - **Web-scraper** (**CLIENTE**)
               - Script que, a partir de una serie de parámetros, descarga ficheros de la página web corporativa correspondiente a una oficina del cliente.
               - CLI.
               - API Selenium.
               - Ajustes de seguridad para evitar bloqueos.
               - Parametrizado con .ini.
               - Bundled en .exe.
-            3.  **Generador de aplicaciones** (**USO INTERNO**)
+            - **Generador de aplicaciones** (**USO INTERNO**)
               - Script que, a partir de una serie de parámetros genera una base de datos, formulario y serie de reglas de flujo de trabajo.
               - Los parámetros se pueden proporcionar por CLI, fichero .ini o Excel.
               - Busca resolver pequeñas necesidades de grabación de datos.
               - Genera base de datos relacional ligera SQLite. Aparte de los campos, permite definir restricciones para estos.
               - Genera un formulario basado en labels e inputs básicos con pygui (texto, dropdowns, checkboxes, botones...).
+
+          
+          ---
 
       - layout: top-middle
         title: Formación
@@ -252,7 +253,7 @@ content:
           ¿Qué sería de la vida, si no tuviéramos el valor de intentar algo nuevo? (Vincent Van Gogh)
         description: | # this will include new lines to allow paragraphs
           - **Python**
-            - Certificación oficial de Python.
+            - Certificación oficial de Python by PUE.
           - **Git y Github**
             - Formación online para profundizar en control de versiones.
           - **Docker y Kubernetes**

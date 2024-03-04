@@ -15,62 +15,247 @@ website: https://asrlex.github.io/MyCV/
 darkmode: true
 
 # About Section
-# about_title: Sobre mí
+about_title: Sobre mí
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Soy una persona entusiasta, motivada y muy dedicada a mi entorno profesional. La experiencia trabajando en equipo desde el inicio de mi carrera profesional me ha ayudado a desarrollar una cultura de equipo enfocada en el progreso colaborativo de proyectos y tareas.
-  Mi curiosidad me ayuda a mantener un aprendizaje constante. Tengo mucho interés por la tecnología en general y cómo evoluciona, principalmente en desarrollo e IA. La evolución de los principales modelos de IA desde un punto de vista de uso ético de la tecnología, para aprender a implementar estas soluciones de una manera segura para sus usuarios es un tema que encuentro muy relevante en el zeitgeist tecnológico. 
-  El aprendizaje también lo llevo a expandir mis conocimientos de desarrollo. Mediante cursos, tutoriales y revisión de documentación de otros proyectos, estoy aprendiendo sobre Bun, Docker, Kubernetes y React, como tecnologías complementarias a los entornos en los que trabajo. Bun, como alternativa muy plausible a Node, Docker y Kubernetes para el despliegue containerizado de aplicaciones, y React para mejorar el portfolio de tecnologías de front-end. 
-  Esta curiosidad también la desarrollo en el ámbito de los idiomas. Desde la infancia he estudiado inglés  hasta alcanzar el bilingüismo, con un título C1-ACE acreditado y nivel C2. En años más recientes he aprendido alemán, hasta alcanzar un nivel B2 con título B2-Mittelstufe. Además, he podido desenvolverme en entornos nativos de estas lenguas al haber vivido en Canadá y Alemania durante varios meses. Como complemento, tengo un título B1 de francés y estoy aprendiendo italiano de forma autodidacta. 
+
+  Mis áreas de conocmiento principales son <mark>Node.js</mark>, <mark>Python</mark>, <mark>SQL</mark> y <mark>Java</mark>, con concimientos de Groovy y C. 
+
+  Mi curiosidad me ayuda a mantener un aprendizaje constante. Tengo mucho interés por la tecnología en general y cómo evoluciona, principalmente en desarrollo e IA. La evolución de los principales modelos de IA desde un punto de vista de uso ético de la tecnología, para aprender a implementar estas soluciones de una manera segura para sus usuarios es un tema que encuentro muy relevante en el zeitgeist tecnológico.
+
+  El aprendizaje también lo llevo a expandir mis conocimientos de desarrollo. Mediante cursos, tutoriales y revisión de documentación de otros proyectos, estoy aprendiendo sobre Bun, Docker, Kubernetes y React, como tecnologías complementarias a los entornos en los que trabajo. Bun, como alternativa muy plausible a Node, Docker y Kubernetes para el despliegue containerizado de aplicaciones, y React para mejorar el portfolio de tecnologías de front-end.
+
+  Esta curiosidad también la desarrollo en el ámbito de los idiomas. Desde la infancia he estudiado inglés  hasta alcanzar el bilingüismo, con un título C1-ACE acreditado y nivel C2. En años más recientes he aprendido alemán, hasta alcanzar un nivel B2 con título B2-Mittelstufe. Además, he podido desenvolverme en entornos nativos de estas lenguas al haber vivido en Canadá y Alemania durante varios meses. Como complemento, tengo un título B1 de francés y estoy aprendiendo italiano de forma autodidacta.
+
 content:
-  - title: Projects # Title for the section
+  - title: Experiencia # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Servinform
+        link: servinform.com
+        # link_text: boringcompany.com
+        sub_title: Responsable de Desarrollo y Reingeniería de Procesos 
+        caption: Agosto 2022 - Presente
+        description: | # this will include new lines to allow paragraphs
+            Desde el equipo de BPM he trabajado en proyectos de reingeniería y transformación digital de procesos, buscando eficiencias y mejoras en la gestión de los mismos.
+
+            Como responsable de desarrollo, he creado y liderado un equipo de desarrollo de software tanto para clientes como para uso interno de la propia empresa de forma transveral. Esto se ha logrado con:
+              - Aplicaciones web con _Node.js, Express.js y React_.
+              - Aplicaciones de escritorio con _Python_, basado en la librería _PyQt5 y tkinter_.
+              - Automatización de tareas con _CPython y Python/Selenium_.
+              - Gestión de bases de datos SQL con _SQLite, MySQL y SQL Server_.
+            
+            En el ámbito de <mark>reingeniería de procesos</mark>, he trabajado en proyectos para entidades financieras, aseguradoras y clientes en el campo de la salud.
+              - _Auditoría de servicios_. Análisis de calidad de flujo de trabajo, calidad del dato producido y detección de ineficiencias.
+              - Desarrollo de nuevos modelos de negocio según especificaciones del proyecto.
+    
+      - layout: left
+        title: CSOIP
+        sub_title: Desarrollador Junior / Control y Reporting 
+        caption: Agosto 2017 - Agosto 2022
+        description: | # this will include new lines to allow paragraphs
+            En el equipo de Control y Reporting, he trabajado directamente para la dirección de la empresa en capacidad de desarrollador y analista de datos. Mis tareas principales han sido:
+              - Desarrollo de aplicaciones web con _Node.js y Express.js_.
+              - Desarrollo de aplicaciones de escritorio con _Java_.
+              - Automatización de tareas con _CPython.
+              - Gestión de bases de datos SQL con _SQLite, MySQL y SQL Server_.
+              - Cálculo de KPIs y SLAs para control y gestión de la productividad.
+              - Manejo de Qlikview, PowerBI y paquete Office.
+
+  - title: Educación # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: UPM
+        sub_title: Ingeniería Telemática
+        description: | # this will include new lines to allow paragraphs
+          - Matrículas de Honor en múltiples asignaturas de prgramación.
+          - Conocimiento avanzado en redes y sistemas.
+          - Experiencia en desarrollo sobre Arduino y Raspberry Pi.
+          - Monitorización de redes con Wireshark.
+          - Conocimientos de seguridad informática.
+          - Conocimiento de UML.
+
+  - title: Competencias de desarrollo # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Conocimientos
+        quote: >
+          ¿Qué sería de la vida, si no tuviéramos el valor de intentar algo nuevo? (Vincent Van Gogh)
+        description: | # this will include new lines to allow paragraphs
+          1.  **General**.
+              - Alta exigencia y disciplina documentando y estructurando código y proyectos.
+              - Seguimiento de buenas prácticas y estilos.
+              - Experiencia con IDEs y editores como **VSCode, Eclipse, IntelliJ y PyCharm**.
+              - Experiencia gestionando proyectos en **OpenProject**.
+
+          2.  **WebDev Full-Stack**: 3 años de experiencia profesional full-stack.
+
+            2.1.  **Back-end:**
+              - Dominio de **Node.js** y **express.js.**
+              - Dominio de mecanismos de **autenticación y login**, tanto manuales como mediante Passport (y opcionalmente la gestión del almacenamiento de sesiones).
+              - Integración con diferentes bases de datos (**SQLServer, MongoDB, SQLite, MySQL**), tanto manualmente como mediante ORM/ODMs (**Mongoose, Sequelize**).
+              - Implementación de modelos de trabajo estandarizados con separación **View-Route-Controller**.
+              - Gestión de ficheros con **multer**.
+              - Implementación de mecanismos de seguridad como cifrado de datos (**bcrypt**), cabeceras de seguridad/CSP (**helmet**),
+              - API de Excel mediante **exceljs**.
+              - Gestión de **cookies** y **sesiones**.
+
+            2.2.  **Front-end:**
+              - Dominio de herramientas de templating como **Ejs** y **Pug**.
+              - Dominio de **CSS** y **Sass**.
+              - Integración de Sass con Node/Express.
+              - Dominio de **Bootstrap 4.0-5.2**.
+              - Dominio de **React** con **JSX**.
+
+          3.  **Java:** 4 años de experiencia profesional.
+              - Dominio de framework y filosofía de desarrollo **Spring MVC**.
+              - Dominio de **Hibernate** como framework **ORM**.
+              - Experiencia trabajando con patrón **MVC** con **Spring MVC** y **JavaFX**.
+              - Dominio y uso muy extendido de **JDBC** con MySQL, SQLServer y MS Access.
+              - Trabajo prolongado con **diferentes APIs de logging** (Logback, Log4j 2 y tinylog 2).
+              - Desarrollo de aplicaciones **REST** con JAX-Jersey.
+              - Desarrollador Java junior de aplicaciones desktop. Interfaces gráficas con **Swing** y **JavaFX**.
+              - Dominio API **POI** de Excel.
+              - Aplicaciones **multihilo** .
+
+          4.  **Python**: 4 años de experiencia profesional.
+              - Automatización de tareas de gestión de ficheros, reporting y análisis de datos.
+              - Desarrollo de **APIs REST** en **Flask** con **OpenAPI**.
+              - Dominio de API de **Excel**.
+
+          5.  **Bases de datos:** 7 años de experiencia profesional con relacionales (**MySQL, SQLServer y SQLite**) y 2 con no relacionales (**MongoDB**).
+              - Triggers.
+              - Limpieza y optimización de queries.
+              - Batches.
+
+          6.  **Flow control.**
+              - **Git y Github** para control de versiones.
+              - **Jenkins** para CI/CD.
+
+          7.  **Deployment**
+              - Despliegues en **Microsoft Server**.
+              - Despliegues en **Linux**.
+              - Despliegues en **Docker**.
+              - Despliegues desde Github a **Heroku** y **Firebase**.
+              - Despliegues manuales en servidor propio (NAS, proyectos personales, etc.).
+
+          8.  **Misc.**
+              - **Conocimientos de Groovy**.
+              - **Conocimientos de C**.
+              - **Conocimientos de Bash**.
+              - **Conocimientos de Selenium**.
+
+      - layout: top-middle
+        title: Proyectos
+        link: github.com/Asrlex
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  Asrlex/MyCV
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/Asrlex/MyCV
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          ¿Qué sería de la vida, si no tuviéramos el valor de intentar algo nuevo? (Vincent Van Gogh)
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          **Node**
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            1.  **Herramientas de grabación** (**CLIENTE**)
+                - Herramientas web de **grabación de datos** y **gestión documental** para clientes de renombre nacionales y europeos.
+                - **API REST** con express.js
+                - Front con **BS 5.2,** **Sass** y **Ejs**.
+                - Login manual.
+                - Integración con SQLite y **SQLServer**.
+                - Desplegadas en servidor con **Microsoft Server**.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+            2.  **Portal de empleados** (**RRHH**)
+                - Webapp para agrupar y mostrar todos los recursos disponibles para los empleados de la empresa, y accesos a otras aplicaciones y utilidades, así como gestión de facturación de los departamentos.
+                - **API REST** con express.js
+                - Front con **BS 5.2,** **Sass** y **Ejs**.
+                - Login manual.
+                - Integración con SQLite y **SQLServer**.
+                - Indexado de documentos en diferentes directorios y discos de red.
+                - Desplegada en servidor con **Microsoft Server**.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+            3.  **Travel Journal** (**PERSONAL**)
+                - **Webapp** de journaling de viajes que permite añadir y gestionar destinos agrupados en viajes.
+                - API REST con express.js.
+                - Front con **BS 5.2**, **Sass** y **Ejs**.
+                - Login manual o Google con **Passport**.
+                - Integración con **MongoDB**.
+                - Gestión de **hosting de imágenes con Cloudinary**.
+                - **Geolocalización** mediante **MapBox API** para visualización y agrupación de marcadores.
+                - Despliegue inicial en **Heroku** desde Github y transferido a Firebase.
+                ![Landing Page](/mycv/images/trjournal1.png "Landing Page")
+                ![Resources](/mycv/images/trjournal2.png "Resources")
 
-  - title: A Little More About Me
+            4.  **Gestión de pólizas** (**SEGUROS**)
+                - Aplicación web para la gestión de pólizas de seguros y pensiones para cliente.
+                - **API REST** con express.js.
+                - Front con **React**, **BS 5.2**, **Sass** y **Ejs**.
+                - Login manual.
+                - Integración con **SQLServer**.
+                - Despliegue en **Linux**.
+                - Interacción con **APIs de cliente**.
+                - 
+
+          **Java**
+
+            1.  **Agenda de operaciones** (**BANCA**)
+                - Aplicación de escritorio para agendar, asignar y gestionar operaciones enviadas en Excel por gestorías.
+                - GUI con **Java Swing**.
+                - JDBC a **SQL Server**.
+                - Identificación automática con usuario corporativo.
+            
+            2.  **Control de moratorias** (**BANCA**)
+                - Aplicación de escritorio para controlar operaciones de moratorias post-covid.
+                - GUI con **JavaFX**.
+                - JDBC a **SQL Server**.
+                - Identificación automática con usuario corporativo.
+
+            3.  **Control de vacaciones y ausencias** (**RRHH**)
+                - Herramienta de escritorio para controlar las vacaciones de todos los empleados de la empresa y la aprobación de solicitudes por los responsables. Control de ausencias por parte de responsables y RRHH, y gestión de los justificantes y motivos.
+                - GUI con **JavaFX**.
+                - Integración de calendarios y datepickers personalizados.
+                - Integración con **SQL Server**.
+                - **API Outlook** (pre-OAuth) para envío de correos de aprobación y confirmación.
+                - Identificación automática con usuario corporativo.
+
+            4.  **Tracker** (**PERSONAL**)
+                - Herramienta de escritorio para controlar progreso en diferentes proyectos o videojuegos a partir de una serie de parámetros iniciales.
+                - GUI con **JavaFX**.
+                - JDBC a **MySQL**.
+                - Identificación manual.
+
+          **Python**
+
+            1.  **Renombramiento de archivos** (**CLIENTE**)
+                - Script que, a partir de un maestro en Excel, renombra una serie de archivos de un directorio concreto y los encarpeta según los filtros especificados.
+                - CLI.
+                - API Excel.
+                - Bundled en .exe
+
+            2.  **Web-scraper** (**CLIENTE**)
+                - Script que, a partir de una serie de parámetros, descarga ficheros de la página web corporativa correspondiente a una oficina del cliente.
+                - CLI.
+                - API Selenium.
+                - Ajustes de seguridad para evitar bloqueos.
+                - Parametrizado con .ini.
+                - Bundled en .exe.
+
+            3.  **Generador de aplicaciones** (**USO INTERNO**)
+                - Script que, a partir de una serie de parámetros genera una base de datos, formulario y serie de reglas de flujo de trabajo.
+                - Los parámetros se pueden proporcionar por CLI, fichero .ini o Excel.
+                - Busca resolver pequeñas necesidades de grabación de datos.
+                - Genera base de datos relacional ligera SQLite. Aparte de los campos, permite definir restricciones para estos.
+                - Genera un formulario basado en labels e inputs básicos con pygui (texto, dropdowns, checkboxes, botones...).
+
+  - title: Proyectos
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
@@ -94,4 +279,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag

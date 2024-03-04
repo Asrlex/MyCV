@@ -5,9 +5,6 @@ favicon: images/favicon.ico
 # Content configuration version
 version: 2
 
-# Theme settings
-theme: jekyll-theme-minimal
-
 # Personal info
 name: Alejandro Sánchez Rodríguez
 title: Software Engineer & Product Manager

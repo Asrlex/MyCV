@@ -6,52 +6,22 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Alejandro Sánchez Rodríguez
+title: Software Engineer & Product Manager
+email: alexsruc@hotmail.com
+website: https://asrlex.github.io/MyCV/
 
 # Dark Mode (true/false/never)
-darkmode: false
-
-# Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+darkmode: true
 
 # About Section
-# about_title: About Me
+# about_title: Sobre mí
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
-
+  Soy una persona entusiasta, motivada y muy dedicada a mi entorno profesional. La experiencia trabajando en equipo desde el inicio de mi carrera profesional me ha ayudado a desarrollar una cultura de equipo enfocada en el progreso colaborativo de proyectos y tareas.
+  Mi curiosidad me ayuda a mantener un aprendizaje constante. Tengo mucho interés por la tecnología en general y cómo evoluciona, principalmente en desarrollo e IA. La evolución de los principales modelos de IA desde un punto de vista de uso ético de la tecnología, para aprender a implementar estas soluciones de una manera segura para sus usuarios es un tema que encuentro muy relevante en el zeitgeist tecnológico. 
+  El aprendizaje también lo llevo a expandir mis conocimientos de desarrollo. Mediante cursos, tutoriales y revisión de documentación de otros proyectos, estoy aprendiendo sobre Bun, Docker, Kubernetes y React, como tecnologías complementarias a los entornos en los que trabajo. Bun, como alternativa muy plausible a Node, Docker y Kubernetes para el despliegue containerizado de aplicaciones, y React para mejorar el portfolio de tecnologías de front-end. 
+  Esta curiosidad también la desarrollo en el ámbito de los idiomas. Desde la infancia he estudiado inglés  hasta alcanzar el bilingüismo, con un título C1-ACE acreditado y nivel C2. En años más recientes he aprendido alemán, hasta alcanzar un nivel B2 con título B2-Mittelstufe. Además, he podido desenvolverme en entornos nativos de estas lenguas al haber vivido en Canadá y Alemania durante varios meses. Como complemento, tengo un título B1 de francés y estoy aprendiendo italiano de forma autodidacta. 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)

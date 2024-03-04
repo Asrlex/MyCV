@@ -38,7 +38,8 @@ content:
       - layout: left
         title: Servinform
         link: servinform.com
-        # link_text: boringcompany.com
+        link_text: |
+          ![SVF logo](./images/svf.png "SVF logo")
         sub_title: Responsable de Desarrollo y Reingeniería de Procesos 
         caption: Agosto 2022 - Presente
         description: | # this will include new lines to allow paragraphs
@@ -104,8 +105,6 @@ content:
         title: Conocimientos
         sub_title: |
           Tecnologías, pilas de desarrollo y herramientas en las que tengo experiencia.
-
-          _¿Qué sería de la vida, si no tuviéramos el valor de intentar algo nuevo? (Vincent Van Gogh)_
         description: | # this will include new lines to allow paragraphs
           
           - ![VS logo](./images/visual-studio.png "VS logo") ![Bash logo](./images/gnu-bash.png "Bash logo") **General**

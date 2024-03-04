@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 version: 2
 
 # Theme settings
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 
 # Personal info
 name: Alejandro Sánchez Rodríguez
@@ -193,9 +193,6 @@ content:
           - title:  Asrlex/MyCV
             icon: fab fa-github
             url: github.com/Asrlex/MyCV
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
           
           ![Node logo](./images/node-js.png "Node logo") **Node**
@@ -311,9 +308,6 @@ content:
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
-
-# Build settings
-remote_theme: sproogen/resume-theme
 
 sass:
   sass_dir: _sass

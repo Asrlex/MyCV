@@ -41,14 +41,14 @@ content:
         description: | # this will include new lines to allow paragraphs
             Desde el equipo de BPM he trabajado en proyectos de reingeniería y transformación digital de procesos, buscando eficiencias y mejoras en la gestión de los mismos.
 
-            Como responsable de desarrollo, he creado y liderado un equipo de desarrollo de software tanto para clientes como para uso interno de la propia empresa de forma transveral. Esto se ha logrado con:
-              - Aplicaciones web con _Node.js, Express.js y React_.
-              - Aplicaciones de escritorio con _Python_, basado en la librería _PyQt5 y tkinter_.
-              - Automatización de tareas con _CPython y Python/Selenium_.
-              - Gestión de bases de datos SQL con _SQLite, MySQL y SQL Server_.
+            Como <mark>responsable de desarrollo</mark>, he creado y liderado un equipo de desarrollo de software tanto para clientes como para uso interno de la propia empresa de forma transveral. Esto se ha logrado con:
+              - Aplicaciones web con __Node.js, Express.js y React__.
+              - Aplicaciones de escritorio con __Python__, basado en la librería __PyQt5 y tkinter__.
+              - Automatización de tareas con __CPython y Python/Selenium__.
+              - Gestión de bases de datos SQL con __SQLite, MySQL y SQL Server__.
             
             En el ámbito de <mark>reingeniería de procesos</mark>, he trabajado en proyectos para entidades financieras, aseguradoras y clientes en el campo de la salud.
-              - _Auditoría de servicios_. Análisis de calidad de flujo de trabajo, calidad del dato producido y detección de ineficiencias.
+              - __Auditoría de servicios__. Análisis de calidad de flujo de trabajo, calidad del dato producido y detección de ineficiencias.
               - Desarrollo de nuevos modelos de negocio según especificaciones del proyecto.
     
       - layout: left
@@ -57,10 +57,10 @@ content:
         caption: Agosto 2017 - Agosto 2022
         description: | # this will include new lines to allow paragraphs
             En el equipo de Control y Reporting, he trabajado directamente para la dirección de la empresa en capacidad de desarrollador y analista de datos. Mis tareas principales han sido:
-              - Desarrollo de aplicaciones web con _Node.js y Express.js_.
-              - Desarrollo de aplicaciones de escritorio con _Java_.
-              - Automatización de tareas con _CPython.
-              - Gestión de bases de datos SQL con _SQLite, MySQL y SQL Server_.
+              - Desarrollo de aplicaciones web con __Node.js y Express.js__.
+              - Desarrollo de aplicaciones de escritorio con __Java__.
+              - Automatización de tareas con __CPython__.
+              - Gestión de bases de datos SQL con __SQLite, MySQL y SQL Server__.
               - Cálculo de KPIs y SLAs para control y gestión de la productividad.
               - Manejo de Qlikview, PowerBI y paquete Office.
 
@@ -86,15 +86,15 @@ content:
         quote: >
           ¿Qué sería de la vida, si no tuviéramos el valor de intentar algo nuevo? (Vincent Van Gogh)
         description: | # this will include new lines to allow paragraphs
+          
           1.  **General**.
-              - Alta exigencia y disciplina documentando y estructurando código y proyectos.
-              - Seguimiento de buenas prácticas y estilos.
-              - Experiencia con IDEs y editores como **VSCode, Eclipse, IntelliJ y PyCharm**.
-              - Experiencia gestionando proyectos en **OpenProject**.
+            - Alta exigencia y disciplina documentando y estructurando código y proyectos.
+            - Seguimiento de buenas prácticas y estilos.
+            - Experiencia con IDEs y editores como **VSCode, Eclipse, IntelliJ y PyCharm**.
+            - Experiencia gestionando proyectos en **OpenProject**.
 
           2.  **WebDev Full-Stack**: 3 años de experiencia profesional full-stack.
-
-            2.1.  **Back-end:**
+            *  **Back-end:**
               - Dominio de **Node.js** y **express.js.**
               - Dominio de mecanismos de **autenticación y login**, tanto manuales como mediante Passport (y opcionalmente la gestión del almacenamiento de sesiones).
               - Integración con diferentes bases de datos (**SQLServer, MongoDB, SQLite, MySQL**), tanto manualmente como mediante ORM/ODMs (**Mongoose, Sequelize**).
@@ -103,8 +103,7 @@ content:
               - Implementación de mecanismos de seguridad como cifrado de datos (**bcrypt**), cabeceras de seguridad/CSP (**helmet**),
               - API de Excel mediante **exceljs**.
               - Gestión de **cookies** y **sesiones**.
-
-            2.2.  **Front-end:**
+            *  **Front-end:**
               - Dominio de herramientas de templating como **Ejs** y **Pug**.
               - Dominio de **CSS** y **Sass**.
               - Integración de Sass con Node/Express.
@@ -112,42 +111,45 @@ content:
               - Dominio de **React** con **JSX**.
 
           3.  **Java:** 4 años de experiencia profesional.
-              - Dominio de framework y filosofía de desarrollo **Spring MVC**.
-              - Dominio de **Hibernate** como framework **ORM**.
-              - Experiencia trabajando con patrón **MVC** con **Spring MVC** y **JavaFX**.
-              - Dominio y uso muy extendido de **JDBC** con MySQL, SQLServer y MS Access.
-              - Trabajo prolongado con **diferentes APIs de logging** (Logback, Log4j 2 y tinylog 2).
-              - Desarrollo de aplicaciones **REST** con JAX-Jersey.
-              - Desarrollador Java junior de aplicaciones desktop. Interfaces gráficas con **Swing** y **JavaFX**.
-              - Dominio API **POI** de Excel.
-              - Aplicaciones **multihilo** .
+            - Dominio de framework y filosofía de desarrollo **Spring MVC**.
+            - Dominio de **Hibernate** como framework **ORM**.
+            - Experiencia trabajando con patrón **MVC** con **Spring MVC** y **JavaFX**.
+            - Dominio y uso muy extendido de **JDBC** con MySQL, SQLServer y MS Access.
+            - Trabajo prolongado con **diferentes APIs de logging** (Logback, Log4j 2 y tinylog 2).
+            - Desarrollo de aplicaciones **REST** con JAX-Jersey.
+            - Desarrollador Java junior de aplicaciones desktop. Interfaces gráficas con **Swing** y **JavaFX**.
+            - Dominio API **POI** de Excel.
+            - Aplicaciones **multihilo** .
 
           4.  **Python**: 4 años de experiencia profesional.
-              - Automatización de tareas de gestión de ficheros, reporting y análisis de datos.
-              - Desarrollo de **APIs REST** en **Flask** con **OpenAPI**.
-              - Dominio de API de **Excel**.
+            - Automatización de tareas de gestión de ficheros, reporting y análisis de datos.
+            - Desarrollo de **APIs REST** en **Flask** con **OpenAPI**.
+            - Dominio de API de **Excel**.
 
           5.  **Bases de datos:** 7 años de experiencia profesional con relacionales (**MySQL, SQLServer y SQLite**) y 2 con no relacionales (**MongoDB**).
-              - Triggers.
-              - Limpieza y optimización de queries.
-              - Batches.
+            - Triggers.
+            - Limpieza y optimización de queries.
+            - Batches.
 
           6.  **Flow control.**
-              - **Git y Github** para control de versiones.
-              - **Jenkins** para CI/CD.
+            - **Git y Github** para control de versiones.
+            - **Jenkins** para CI/CD.
 
           7.  **Deployment**
-              - Despliegues en **Microsoft Server**.
-              - Despliegues en **Linux**.
-              - Despliegues en **Docker**.
-              - Despliegues desde Github a **Heroku** y **Firebase**.
-              - Despliegues manuales en servidor propio (NAS, proyectos personales, etc.).
+            - Despliegues en **Microsoft Server**.
+            - Despliegues en **Linux**.
+            - Despliegues en **Docker**.
+            - Despliegues desde Github a **Heroku** y **Firebase**.
+            - Despliegues manuales en servidor propio (NAS, proyectos personales, etc.).
 
           8.  **Misc.**
-              - **Conocimientos de Groovy**.
-              - **Conocimientos de C**.
-              - **Conocimientos de Bash**.
-              - **Conocimientos de Selenium**.
+            - **Conocimientos de Groovy**.
+            - **Conocimientos de C**.
+            - **Conocimientos de Bash**.
+            - **Conocimientos de Selenium**.
+          
+
+          ---
 
       - layout: top-middle
         title: Proyectos
@@ -163,109 +165,100 @@ content:
         quote: >
           ¿Qué sería de la vida, si no tuviéramos el valor de intentar algo nuevo? (Vincent Van Gogh)
         description: | # this will include new lines to allow paragraphs
+          
           **Node**
-
             1.  **Herramientas de grabación** (**CLIENTE**)
-                - Herramientas web de **grabación de datos** y **gestión documental** para clientes de renombre nacionales y europeos.
-                - **API REST** con express.js
-                - Front con **BS 5.2,** **Sass** y **Ejs**.
-                - Login manual.
-                - Integración con SQLite y **SQLServer**.
-                - Desplegadas en servidor con **Microsoft Server**.
-
+              - Herramientas web de **grabación de datos** y **gestión documental** para clientes de renombre nacionales y europeos.
+              - **API REST** con express.js
+              - Front con **BS 5.2,** **Sass** y **Ejs**.
+              - Login manual.
+              - Integración con SQLite y **SQLServer**.
+              - Desplegadas en servidor con **Microsoft Server**.
             2.  **Portal de empleados** (**RRHH**)
-                - Webapp para agrupar y mostrar todos los recursos disponibles para los empleados de la empresa, y accesos a otras aplicaciones y utilidades, así como gestión de facturación de los departamentos.
-                - **API REST** con express.js
-                - Front con **BS 5.2,** **Sass** y **Ejs**.
-                - Login manual.
-                - Integración con SQLite y **SQLServer**.
-                - Indexado de documentos en diferentes directorios y discos de red.
-                - Desplegada en servidor con **Microsoft Server**.
-
+              - Webapp para agrupar y mostrar todos los recursos disponibles para los empleados de la empresa, y accesos a otras aplicaciones y utilidades, así como gestión de facturación de los departamentos.
+              - **API REST** con express.js
+              - Front con **BS 5.2,** **Sass** y **Ejs**.
+              - Login manual.
+              - Integración con SQLite y **SQLServer**.
+              - Indexado de documentos en diferentes directorios y discos de red.
+              - Desplegada en servidor con **Microsoft Server**.
             3.  **Travel Journal** (**PERSONAL**)
-                - **Webapp** de journaling de viajes que permite añadir y gestionar destinos agrupados en viajes.
-                - API REST con express.js.
-                - Front con **BS 5.2**, **Sass** y **Ejs**.
-                - Login manual o Google con **Passport**.
-                - Integración con **MongoDB**.
-                - Gestión de **hosting de imágenes con Cloudinary**.
-                - **Geolocalización** mediante **MapBox API** para visualización y agrupación de marcadores.
-                - Despliegue inicial en **Heroku** desde Github y transferido a Firebase.
-                ![Landing Page](/mycv/images/trjournal1.png "Landing Page")
-                ![Resources](/mycv/images/trjournal2.png "Resources")
-
+              - **Webapp** de journaling de viajes que permite añadir y gestionar destinos agrupados en viajes.
+              - API REST con express.js.
+              - Front con **BS 5.2**, **Sass** y **Ejs**.
+              - Login manual o Google con **Passport**.
+              - Integración con **MongoDB**.
+              - Gestión de **hosting de imágenes con Cloudinary**.
+              - **Geolocalización** mediante **MapBox API** para visualización y agrupación de marcadores.
+              - Despliegue inicial en **Heroku** desde Github y transferido a Firebase.
+              ![Landing Page](/mycv/images/trjournal1.png "Landing Page")
+              ![Resources](/mycv/images/trjournal2.png "Resources")
             4.  **Gestión de pólizas** (**SEGUROS**)
-                - Aplicación web para la gestión de pólizas de seguros y pensiones para cliente.
-                - **API REST** con express.js.
-                - Front con **React**, **BS 5.2**, **Sass** y **Ejs**.
-                - Login manual.
-                - Integración con **SQLServer**.
-                - Despliegue en **Linux**.
-                - Interacción con **APIs de cliente**.
-                - 
+              - Aplicación web para la gestión de pólizas de seguros y pensiones para cliente.
+              - **API REST** con express.js.
+              - Front con **React**, **BS 5.2**, **Sass** y **Ejs**.
+              - Login manual.
+              - Integración con **SQLServer**.
+              - Interacción con **APIs de cliente**.
+              - Despliegue en **Linux**.
 
           **Java**
-
             1.  **Agenda de operaciones** (**BANCA**)
-                - Aplicación de escritorio para agendar, asignar y gestionar operaciones enviadas en Excel por gestorías.
-                - GUI con **Java Swing**.
-                - JDBC a **SQL Server**.
-                - Identificación automática con usuario corporativo.
-            
+              - Aplicación de escritorio para agendar, asignar y gestionar operaciones enviadas en Excel por gestorías.
+              - GUI con **Java Swing**.
+              - JDBC a **SQL Server**.
+              - Identificación automática con usuario corporativo.
             2.  **Control de moratorias** (**BANCA**)
-                - Aplicación de escritorio para controlar operaciones de moratorias post-covid.
-                - GUI con **JavaFX**.
-                - JDBC a **SQL Server**.
-                - Identificación automática con usuario corporativo.
-
+              - Aplicación de escritorio para controlar operaciones de moratorias post-covid.
+              - GUI con **JavaFX**.
+              - JDBC a **SQL Server**.
+              - Identificación automática con usuario corporativo.
             3.  **Control de vacaciones y ausencias** (**RRHH**)
-                - Herramienta de escritorio para controlar las vacaciones de todos los empleados de la empresa y la aprobación de solicitudes por los responsables. Control de ausencias por parte de responsables y RRHH, y gestión de los justificantes y motivos.
-                - GUI con **JavaFX**.
-                - Integración de calendarios y datepickers personalizados.
-                - Integración con **SQL Server**.
-                - **API Outlook** (pre-OAuth) para envío de correos de aprobación y confirmación.
-                - Identificación automática con usuario corporativo.
-
+              - Herramienta de escritorio para controlar las vacaciones de todos los empleados de la empresa y la aprobación de solicitudes por los responsables. Control de ausencias por parte de responsables y RRHH, y gestión de los justificantes y motivos.
+              - GUI con **JavaFX**.
+              - Integración de calendarios y datepickers personalizados.
+              - Integración con **SQL Server**.
+              - **API Outlook** (pre-OAuth) para envío de correos de aprobación y confirmación.
+              - Identificación automática con usuario corporativo.
             4.  **Tracker** (**PERSONAL**)
-                - Herramienta de escritorio para controlar progreso en diferentes proyectos o videojuegos a partir de una serie de parámetros iniciales.
-                - GUI con **JavaFX**.
-                - JDBC a **MySQL**.
-                - Identificación manual.
+              - Herramienta de escritorio para controlar progreso en diferentes proyectos o videojuegos a partir de una serie de parámetros iniciales.
+              - GUI con **JavaFX**.
+              - JDBC a **MySQL**.
+              - Identificación manual.
 
           **Python**
-
             1.  **Renombramiento de archivos** (**CLIENTE**)
-                - Script que, a partir de un maestro en Excel, renombra una serie de archivos de un directorio concreto y los encarpeta según los filtros especificados.
-                - CLI.
-                - API Excel.
-                - Bundled en .exe
-
+              - Script que, a partir de un maestro en Excel, renombra una serie de archivos de un directorio concreto y los encarpeta según los filtros especificados.
+              - CLI.
+              - API Excel.
+              - Bundled en .exe
             2.  **Web-scraper** (**CLIENTE**)
-                - Script que, a partir de una serie de parámetros, descarga ficheros de la página web corporativa correspondiente a una oficina del cliente.
-                - CLI.
-                - API Selenium.
-                - Ajustes de seguridad para evitar bloqueos.
-                - Parametrizado con .ini.
-                - Bundled en .exe.
-
+              - Script que, a partir de una serie de parámetros, descarga ficheros de la página web corporativa correspondiente a una oficina del cliente.
+              - CLI.
+              - API Selenium.
+              - Ajustes de seguridad para evitar bloqueos.
+              - Parametrizado con .ini.
+              - Bundled en .exe.
             3.  **Generador de aplicaciones** (**USO INTERNO**)
-                - Script que, a partir de una serie de parámetros genera una base de datos, formulario y serie de reglas de flujo de trabajo.
-                - Los parámetros se pueden proporcionar por CLI, fichero .ini o Excel.
-                - Busca resolver pequeñas necesidades de grabación de datos.
-                - Genera base de datos relacional ligera SQLite. Aparte de los campos, permite definir restricciones para estos.
-                - Genera un formulario basado en labels e inputs básicos con pygui (texto, dropdowns, checkboxes, botones...).
+              - Script que, a partir de una serie de parámetros genera una base de datos, formulario y serie de reglas de flujo de trabajo.
+              - Los parámetros se pueden proporcionar por CLI, fichero .ini o Excel.
+              - Busca resolver pequeñas necesidades de grabación de datos.
+              - Genera base de datos relacional ligera SQLite. Aparte de los campos, permite definir restricciones para estos.
+              - Genera un formulario basado en labels e inputs básicos con pygui (texto, dropdowns, checkboxes, botones...).
 
-  - title: Proyectos
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      - layout: top-middle
+        title: Formación
+        quote: >
+          ¿Qué sería de la vida, si no tuviéramos el valor de intentar algo nuevo? (Vincent Van Gogh)
+        description: | # this will include new lines to allow paragraphs
+          - **Python**
+            - Certificación oficial de Python.
+          - **Git y Github**
+            - Formación online para profundizar en control de versiones.
+          - **Docker y Kubernetes**
+            - Formación online para profundizar en despliegue de aplicaciones.
+          - **React**
+            - Formación online para profundizar en desarrollo front-end.
 
 # Footer
 footer_show_references: true

@@ -79,19 +79,20 @@ content:
           - Conocimiento de UML.
 
   - title: Idiomas # Title for the section
-    layout: text # Type of content section (list/text)
+    layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: Dominio de idiomas
         sub_title: "Idioma nativo: Español"
         description: | # this will include new lines to allow paragraphs
-          "          |               | Comprensión auditiva  | Comprensión lectora | Producción oral | Interacción oral  | Expresión escrita |
+          |               | Comprensión auditiva  | Comprensión lectora | Producción oral | Interacción oral  | Expresión escrita |
           | -----------   | :-----------------:   | :-----------------: | :-------------: | :---------------: | :---------------: |
           | **INGLÉS**    | C2                    | C2                  | C2              | C2                | C2                |
           | **ALEMÁN**    | B2                    | B2                  | B2              | B2                | B2                |
           | **FRANCÉS**   | B1                    | B1                  | B1              | B1                | B1                |
           | **ITALIANO**  | A2                    | A2                  | A2              | A2                | A2                |
-          "
+          
+
   - title: Competencias de desarrollo # Title for the section
     layout: list # Type of content section (list/text)
     content:

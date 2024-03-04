@@ -187,7 +187,7 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
           
-          **Node** <img style:"width:30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png" alt="Node.js Logo">
+          **Node** ![Node logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png "Node logo")
             - **Herramientas de grabación** (**CLIENTE**)
               - Herramientas web de **grabación de datos** y **gestión documental** para clientes de renombre nacionales y europeos.
               - **API REST** con express.js
@@ -223,7 +223,7 @@ content:
               - Interacción con **APIs de cliente**.
               - Despliegue en **Linux**.
 
-          **Java** <img style:"width:30px" src="./images/java.png" alt="Java Logo">
+          **Java** ![Java logo](./images/java.png "Java logo")
             - **Agenda de operaciones** (**BANCA**)
               - Aplicación de escritorio para agendar, asignar y gestionar operaciones enviadas en Excel por gestorías.
               - GUI con **Java Swing**.
@@ -247,7 +247,7 @@ content:
               - JDBC a **MySQL**.
               - Identificación manual.
 
-            **Python** <img style:"width:30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/48px-Python.svg.png?20101018043057" alt="Python Logo">
+            **Python** ![Python logo](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/48px-Python.svg.png?20101018043057 "Python logo")
             - **Renombramiento de archivos** (**CLIENTE**)
               - Script que, a partir de un maestro en Excel, renombra una serie de archivos de un directorio concreto y los encarpeta según los filtros especificados.
               - CLI.

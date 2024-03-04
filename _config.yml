@@ -102,7 +102,7 @@ content:
           ¿Qué sería de la vida, si no tuviéramos el valor de intentar algo nuevo? (Vincent Van Gogh)
         description: | # this will include new lines to allow paragraphs
           
-          - **General**.
+          - **General**. ![VS logo](./images/visual-studio.png "VS logo") ![Bash logo](./images/gnu-bash.png "Bash logo")
             - Alta exigencia y disciplina documentando y estructurando código y proyectos.
             - Seguimiento de buenas prácticas y estilos.
             - Experiencia con IDEs y editores como **VSCode, Eclipse, IntelliJ y PyCharm**.
@@ -111,7 +111,7 @@ content:
 
 
           - **WebDev Full-Stack**: 3 años de experiencia profesional full-stack.
-            *  **Back-end:**
+            *  **Back-end:** ![Node logo](./images/node-js.png "Node logo")
                 - Dominio de **Node.js** y **express.js.**
                 - Dominio de mecanismos de **autenticación y login**, tanto manuales como mediante Passport (y opcionalmente la gestión del almacenamiento de sesiones).
                 - Integración con diferentes bases de datos (**SQLServer, MongoDB, SQLite, MySQL**), tanto manualmente como mediante ORM/ODMs (**Mongoose, Sequelize**).
@@ -120,7 +120,7 @@ content:
                 - Implementación de mecanismos de seguridad como cifrado de datos (**bcrypt**), cabeceras de seguridad/CSP (**helmet**),
                 - API de Excel mediante **exceljs**.
                 - Gestión de **cookies** y **sesiones**.
-            *  **Front-end:**
+            *  **Front-end:** ![Javascript logo](./images/js-file.png "Javascript logo") ![Bootstrap logo](./images/bootstrap.png "Bootstrap logo")
                 - Dominio de herramientas de templating como **Ejs** y **Pug**.
                 - Dominio de **CSS** y **Sass**.
                 - Integración de Sass con Node/Express.
@@ -128,19 +128,19 @@ content:
                 - Dominio de **React** con **JSX**.
 
 
-          - **Python**: 4 años de experiencia profesional.
+          - **Python**: 4 años de experiencia profesional. ![Python logo](./images/python.png "Python logo")
             - Automatización de tareas de gestión de ficheros, reporting y análisis de datos.
             - Desarrollo de **APIs REST** en **Flask** con **OpenAPI**.
             - Dominio de API de **Excel**.
 
 
-          - **Bases de datos:** 7 años de experiencia profesional con relacionales (**MySQL, SQLServer y SQLite**) y 2 con no relacionales (**MongoDB**).
+          - **Bases de datos:** 7 años de experiencia profesional con DB relacionales (**MySQL, SQLServer y SQLite**) y 2 con no relacionales (**MongoDB**). ![sql logo](./images/sql-server.png "sql logo")
             - Triggers.
             - Limpieza y optimización de queries.
             - Batches.
 
 
-          - **Java:** 4 años de experiencia profesional.
+          - **Java:** 4 años de experiencia profesional.![Java logo](./images/java.png "Java logo")
             - Dominio de framework y filosofía de desarrollo **Spring MVC**.
             - Dominio de **Hibernate** como framework **ORM**.
             - Experiencia trabajando con patrón **MVC** con **Spring MVC** y **JavaFX**.
@@ -152,7 +152,7 @@ content:
             - Aplicaciones **multihilo** .
 
 
-          - **Flow control.**
+          - **Flow control.** ![Git logo](./images/git.png "Git logo") ![Github logo](./images/github.png "Github logo")
             - **Git y Github** para control de versiones.
             - **Jenkins** para CI/CD.
 
@@ -187,7 +187,7 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
           
-          **Node** ![Node logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png "Node logo")
+          **Node** ![Node logo](./images/node-js.png "Node logo")
             - **Herramientas de grabación** (**CLIENTE**)
               - Herramientas web de **grabación de datos** y **gestión documental** para clientes de renombre nacionales y europeos.
               - **API REST** con express.js
@@ -212,8 +212,8 @@ content:
               - Gestión de **hosting de imágenes con Cloudinary**.
               - **Geolocalización** mediante **MapBox API** para visualización y agrupación de marcadores.
               - Despliegue inicial en **Heroku** desde Github y transferido a Firebase.
-              ![Landing Page](/mycv/images/trjournal1.png "Landing Page")
-              ![Resources](/mycv/images/trjournal2.png "Resources")
+              ![Landing Page](./images/trjournal1.png "Landing Page")
+              ![Resources](./images/trjournal2.png "Resources")
             - **Gestión de pólizas** (**SEGUROS**)
               - Aplicación web para la gestión de pólizas de seguros y pensiones para cliente.
               - **API REST** con express.js.
@@ -247,7 +247,7 @@ content:
               - JDBC a **MySQL**.
               - Identificación manual.
 
-            **Python** ![Python logo](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/48px-Python.svg.png?20101018043057 "Python logo")
+            **Python** ![Python logo](./images/python.png "Python logo")
             - **Renombramiento de archivos** (**CLIENTE**)
               - Script que, a partir de un maestro en Excel, renombra una serie de archivos de un directorio concreto y los encarpeta según los filtros especificados.
               - CLI.

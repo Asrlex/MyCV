@@ -12,7 +12,7 @@ email: alexsruc@hotmail.com
 website: https://asrlex.github.io/MyCV/
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # About Section
 about_title: Sobre mí
@@ -78,6 +78,20 @@ content:
           - Conocimientos de seguridad informática.
           - Conocimiento de UML.
 
+  - title: Idiomas # Title for the section
+    layout: text # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Dominio de idiomas
+        sub_title: "Idioma nativo: Español"
+        description: | # this will include new lines to allow paragraphs
+          |           | Comprensión auditiva  | Comprensión lectora | Producción oral | Interacción oral  | Expresión escrita |
+          | --------- | --------------------- | ------------------- | --------------- | ----------------- | ----------------- |
+          | **INGLÉS**    | C2 | C2 | C2 | C2 | C2 |
+          | **ALEMÁN**    | B2 | B2 | B2 | B2 | B2 |
+          | **FRANCÉS**   | B1 | B1 | B1 | B1 | B1 |
+          | **ITALIANO**  | A2 | A2 | A2 | A2 | A2 |
+
   - title: Competencias de desarrollo # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -92,23 +106,38 @@ content:
             - Seguimiento de buenas prácticas y estilos.
             - Experiencia con IDEs y editores como **VSCode, Eclipse, IntelliJ y PyCharm**.
             - Experiencia gestionando proyectos en **OpenProject**.
+            - Dominio de entorno **Linux** y **bash* para gestión de archivos, permisos y paquetes.
+
 
           - **WebDev Full-Stack**: 3 años de experiencia profesional full-stack.
             *  **Back-end:**
-              - Dominio de **Node.js** y **express.js.**
-              - Dominio de mecanismos de **autenticación y login**, tanto manuales como mediante Passport (y opcionalmente la gestión del almacenamiento de sesiones).
-              - Integración con diferentes bases de datos (**SQLServer, MongoDB, SQLite, MySQL**), tanto manualmente como mediante ORM/ODMs (**Mongoose, Sequelize**).
-              - Implementación de modelos de trabajo estandarizados con separación **View-Route-Controller**.
-              - Gestión de ficheros con **multer**.
-              - Implementación de mecanismos de seguridad como cifrado de datos (**bcrypt**), cabeceras de seguridad/CSP (**helmet**),
-              - API de Excel mediante **exceljs**.
-              - Gestión de **cookies** y **sesiones**.
+                - Dominio de **Node.js** y **express.js.**
+                - Dominio de mecanismos de **autenticación y login**, tanto manuales como mediante Passport (y opcionalmente la gestión del almacenamiento de sesiones).
+                - Integración con diferentes bases de datos (**SQLServer, MongoDB, SQLite, MySQL**), tanto manualmente como mediante ORM/ODMs (**Mongoose, Sequelize**).
+                - Implementación de modelos de trabajo estandarizados con separación **View-Route-Controller**.
+                - Gestión de ficheros con **multer**.
+                - Implementación de mecanismos de seguridad como cifrado de datos (**bcrypt**), cabeceras de seguridad/CSP (**helmet**),
+                - API de Excel mediante **exceljs**.
+                - Gestión de **cookies** y **sesiones**.
             *  **Front-end:**
-              - Dominio de herramientas de templating como **Ejs** y **Pug**.
-              - Dominio de **CSS** y **Sass**.
-              - Integración de Sass con Node/Express.
-              - Dominio de **Bootstrap 4.0-5.2**.
-              - Dominio de **React** con **JSX**.
+                - Dominio de herramientas de templating como **Ejs** y **Pug**.
+                - Dominio de **CSS** y **Sass**.
+                - Integración de Sass con Node/Express.
+                - Dominio de **Bootstrap 4.0-5.2**.
+                - Dominio de **React** con **JSX**.
+
+
+          - **Python**: 4 años de experiencia profesional.
+            - Automatización de tareas de gestión de ficheros, reporting y análisis de datos.
+            - Desarrollo de **APIs REST** en **Flask** con **OpenAPI**.
+            - Dominio de API de **Excel**.
+
+
+          - **Bases de datos:** 7 años de experiencia profesional con relacionales (**MySQL, SQLServer y SQLite**) y 2 con no relacionales (**MongoDB**).
+            - Triggers.
+            - Limpieza y optimización de queries.
+            - Batches.
+
 
           - **Java:** 4 años de experiencia profesional.
             - Dominio de framework y filosofía de desarrollo **Spring MVC**.
@@ -121,19 +150,11 @@ content:
             - Dominio API **POI** de Excel.
             - Aplicaciones **multihilo** .
 
-          - **Python**: 4 años de experiencia profesional.
-            - Automatización de tareas de gestión de ficheros, reporting y análisis de datos.
-            - Desarrollo de **APIs REST** en **Flask** con **OpenAPI**.
-            - Dominio de API de **Excel**.
-
-          - **Bases de datos:** 7 años de experiencia profesional con relacionales (**MySQL, SQLServer y SQLite**) y 2 con no relacionales (**MongoDB**).
-            - Triggers.
-            - Limpieza y optimización de queries.
-            - Batches.
 
           - **Flow control.**
             - **Git y Github** para control de versiones.
             - **Jenkins** para CI/CD.
+
 
           - **Deployment**
             - Despliegues en **Microsoft Server**.
@@ -141,6 +162,7 @@ content:
             - Despliegues en **Docker**.
             - Despliegues desde Github a **Heroku** y **Firebase**.
             - Despliegues manuales en servidor propio (NAS, proyectos personales, etc.).
+
 
           - **Misc.**
             - **Conocimientos de Groovy**.

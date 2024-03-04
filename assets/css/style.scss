@@ -1,2 +1,21 @@
 @import "{{ site.theme }}";
 
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+section {
+    padding: 20px;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+}

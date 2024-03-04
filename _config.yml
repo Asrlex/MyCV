@@ -85,24 +85,25 @@ content:
         title: Dominio de idiomas
         sub_title: "Idioma nativo: Español"
         description: | # this will include new lines to allow paragraphs
-          |               | Comprensión auditiva  | Comprensión lectora | Producción oral | Interacción oral  | Expresión escrita |
-          | -----------   | :-----------------:   | :-----------------: | :-------------: | :---------------: | :---------------: |
-          | **INGLÉS**    | C2                    | C2                  | C2              | C2                | C2                |
-          | **ALEMÁN**    | B2                    | B2                  | B2              | B2                | B2                |
-          | **FRANCÉS**   | B1                    | B1                  | B1              | B1                | B1                |
-          | **ITALIANO**  | A2                    | A2                  | A2              | A2                | A2                |
+          |                                                 | Comprensión auditiva  | Comprensión lectora | Producción oral | Interacción oral  | Expresión escrita |
+          | ----------------------------------------------  | :-----------------:   | :-----------------: | :-------------: | :---------------: | :---------------: |
+          | **INGLÉS**   ![UK](./images/uk.png "UK"])       | C2                    | C2                  | C2              | C2                | C2                |
+          | **ALEMÁN**   ![GER](./images/german.png "GER")  | B2                    | B2                  | B2              | B2                | B2                |
+          | **FRANCÉS**  ![FRA](./images/italy.png "FRA")   | B1                    | B1                  | B1              | B1                | B1                |
+          | **ITALIANO** ![ITA](./images/france.png "ITA")  | A2                    | A2                  | A2              | A2                | A2                |
+        
           
 
   - title: Competencias de desarrollo # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: Conocimientos
         quote: >
           ¿Qué sería de la vida, si no tuviéramos el valor de intentar algo nuevo? (Vincent Van Gogh)
         description: | # this will include new lines to allow paragraphs
           
-          - **General**. ![VS logo](./images/visual-studio.png "VS logo") ![Bash logo](./images/gnu-bash.png "Bash logo")
+          - ![VS logo](./images/visual-studio.png "VS logo") ![Bash logo](./images/gnu-bash.png "Bash logo") **General**
             - Alta exigencia y disciplina documentando y estructurando código y proyectos.
             - Seguimiento de buenas prácticas y estilos.
             - Experiencia con IDEs y editores como **VSCode, Eclipse, IntelliJ y PyCharm**.
@@ -111,7 +112,7 @@ content:
 
 
           - **WebDev Full-Stack**: 3 años de experiencia profesional full-stack.
-            *  **Back-end:** ![Node logo](./images/node-js.png "Node logo")
+            * ![Node logo](./images/node-js.png "Node logo") **Back-end:**
                 - Dominio de **Node.js** y **express.js.**
                 - Dominio de mecanismos de **autenticación y login**, tanto manuales como mediante Passport (y opcionalmente la gestión del almacenamiento de sesiones).
                 - Integración con diferentes bases de datos (**SQLServer, MongoDB, SQLite, MySQL**), tanto manualmente como mediante ORM/ODMs (**Mongoose, Sequelize**).
@@ -120,7 +121,7 @@ content:
                 - Implementación de mecanismos de seguridad como cifrado de datos (**bcrypt**), cabeceras de seguridad/CSP (**helmet**),
                 - API de Excel mediante **exceljs**.
                 - Gestión de **cookies** y **sesiones**.
-            *  **Front-end:** ![Javascript logo](./images/js-file.png "Javascript logo") ![Bootstrap logo](./images/bootstrap.png "Bootstrap logo")
+            * ![Javascript logo](./images/js-file.png "Javascript logo") ![React logo](./images/physics.png "React logo") ![Bootstrap logo](./images/bootstrap.png "Bootstrap logo") **Front-end:**
                 - Dominio de herramientas de templating como **Ejs** y **Pug**.
                 - Dominio de **CSS** y **Sass**.
                 - Integración de Sass con Node/Express.
@@ -128,19 +129,24 @@ content:
                 - Dominio de **React** con **JSX**.
 
 
-          - **Python**: 4 años de experiencia profesional. ![Python logo](./images/python.png "Python logo")
+          - ![Python logo](./images/python.png "Python logo") **Python**: 4 años de experiencia profesional.
             - Automatización de tareas de gestión de ficheros, reporting y análisis de datos.
             - Desarrollo de **APIs REST** en **Flask** con **OpenAPI**.
             - Dominio de API de **Excel**.
 
 
-          - **Bases de datos:** 7 años de experiencia profesional con DB relacionales (**MySQL, SQLServer y SQLite**) y 2 con no relacionales (**MongoDB**). ![sql logo](./images/sql-server.png "sql logo")
+          - ![sql logo](./images/sql-server.png "sql logo") **Bases de datos:** 7 años de experiencia profesional con DB relacionales (**MySQL, SQLServer y SQLite**) y 2 con no relacionales (**MongoDB**).
             - Triggers.
             - Limpieza y optimización de queries.
             - Batches.
 
+          - ![Outsystems logo](./images/outsystems.png "Outsystems logo") **Low-code:** 1 año de experiencia trabajando con soluciones low-code.
+            - Desarrollo de aplicaciones web y móviles con **Outsystems**.
+              - Desarrollo full-stack funcional y visual.
+            - Desarrollo de aplicaciones web con **ServiOps**.
+              - Scripting con Groovy y Javascript.
 
-          - **Java:** 4 años de experiencia profesional.![Java logo](./images/java.png "Java logo")
+          - ![Java logo](./images/java.png "Java logo") **Java:** 4 años de experiencia profesional.
             - Dominio de framework y filosofía de desarrollo **Spring MVC**.
             - Dominio de **Hibernate** como framework **ORM**.
             - Experiencia trabajando con patrón **MVC** con **Spring MVC** y **JavaFX**.
@@ -152,7 +158,7 @@ content:
             - Aplicaciones **multihilo** .
 
 
-          - **Flow control.** ![Git logo](./images/git.png "Git logo") ![Github logo](./images/github.png "Github logo")
+          - ![Git logo](./images/git.png "Git logo") ![Github logo](./images/github.png "Github logo") **Flow control.**
             - **Git y Github** para control de versiones.
             - **Jenkins** para CI/CD.
 
@@ -168,13 +174,12 @@ content:
           - **Misc.**
             - **Conocimientos de Groovy**.
             - **Conocimientos de C**.
-            - **Conocimientos de Bash**.
             - **Conocimientos de Selenium**.
           
 
           ---
 
-      - layout: top-middle
+      - layout: left
         title: Proyectos
         link: github.com/Asrlex
         # link_text: Project Website
@@ -187,7 +192,7 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
           
-          **Node** ![Node logo](./images/node-js.png "Node logo")
+          ![Node logo](./images/node-js.png "Node logo") **Node**
             - **Herramientas de grabación** (**CLIENTE**)
               - Herramientas web de **grabación de datos** y **gestión documental** para clientes de renombre nacionales y europeos.
               - **API REST** con express.js
@@ -223,7 +228,7 @@ content:
               - Interacción con **APIs de cliente**.
               - Despliegue en **Linux**.
 
-          **Java** ![Java logo](./images/java.png "Java logo")
+          ![Java logo](./images/java.png "Java logo") **Java**
             - **Agenda de operaciones** (**BANCA**)
               - Aplicación de escritorio para agendar, asignar y gestionar operaciones enviadas en Excel por gestorías.
               - GUI con **Java Swing**.
@@ -247,7 +252,7 @@ content:
               - JDBC a **MySQL**.
               - Identificación manual.
 
-            **Python** ![Python logo](./images/python.png "Python logo")
+            ![Python logo](./images/python.png "Python logo") **Python** 
             - **Renombramiento de archivos** (**CLIENTE**)
               - Script que, a partir de un maestro en Excel, renombra una serie de archivos de un directorio concreto y los encarpeta según los filtros especificados.
               - CLI.
@@ -266,6 +271,19 @@ content:
               - Busca resolver pequeñas necesidades de grabación de datos.
               - Genera base de datos relacional ligera SQLite. Aparte de los campos, permite definir restricciones para estos.
               - Genera un formulario basado en labels e inputs básicos con pygui (texto, dropdowns, checkboxes, botones...).
+
+            ![Outsystems logo](./images/outsystems.png "Outsystems logo") **Outsystems Low-Code** 
+            - **Gestión de casos** (**CLIENTE**)
+              - Aplicación web para la gestión de casos de bastanteos y reclamaciones.
+              - Desarrollo full-stack funcional y visual.
+              - Procesamiento de carga y descarga de ficheros Excel.
+              - Desarrollo de flujos de negocio mediante acciones de cliente y servidor.
+            
+            ![Groovy logo](./images/groovy.png "Groovy logo") **Groovy**
+            - **Scripting** (**USO INTERNO**)
+              - Script que, procesando parámetros, genera una serie de documentos y ficheros de configuración para la generación de aplicaciones con ServiOps.
+              - Script que filtran y reconocen el tipo de persona asociada a un NIF español proporcionado a la entrada de datos en ServiOps.
+              - Script que conecta ServiOps con la API del repositorio interno de usuarios de la empresa para crear usuarios automáticamente en cuanto se registre su alta.
 
           
           ---

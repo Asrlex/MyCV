@@ -168,6 +168,7 @@ content:
             - Despliegues en **Microsoft Server**.
             - Despliegues en **Linux**.
             - Despliegues en **Docker**.
+            - Despliegues en **Github Pages**.
             - Despliegues desde Github a **Heroku** y **Firebase**.
             - Despliegues manuales en servidor propio (NAS, proyectos personales, etc.).
 

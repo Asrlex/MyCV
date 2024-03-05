@@ -97,7 +97,7 @@ content:
   - title: Competencias de desarrollo # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         title: Conocimientos
         sub_title: |
           Tecnologías, pilas de desarrollo y herramientas en las que tengo experiencia.        
@@ -181,7 +181,7 @@ content:
 
           ---
 
-      - layout: left
+      - layout: top-middle
         title: Proyectos
         link: github.com/Asrlex
         # link_text: Project Website

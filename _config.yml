@@ -99,8 +99,9 @@ content:
     content:
       - layout: left
         title: Conocimientos
-        quote: >
-          ¿Qué sería de la vida, si no tuviéramos el valor de intentar algo nuevo? (Vincent Van Gogh)
+        sub_title: |
+          Tecnologías, pilas de desarrollo y herramientas en las que tengo experiencia.        
+          
         description: | # this will include new lines to allow paragraphs
           
           - ![VS logo](./images/visual-studio.png "VS logo") ![Bash logo](./images/gnu-bash.png "Bash logo") **General**

@@ -7,11 +7,11 @@ table {
 }
 
 img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition: transform 0.3s;
 }
 
-tr:hover {
-    background-color: rgb(54, 50, 50);
-    transition: background-color 0.3s;
+#proyectos, #conocimientos {
+    max-width: 70%;
+    width: 70%;
 }

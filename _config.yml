@@ -11,6 +11,14 @@ title: Software Engineer & Product Manager
 email: alexsruc@hotmail.com
 website: https://asrlex.github.io/MyCV/
 
+additional_links:
+- title: ES
+  icon: fas fa-globe
+  url: https://www.itsgoingto.be
+- title: EN
+  icon: fas fa-globe
+  url: https://www.itsgoingto.be
+
 # Dark Mode (true/false/never)
 darkmode: false
 
@@ -39,30 +47,30 @@ content:
         sub_title: Responsable de Desarrollo y Reingeniería de Procesos 
         caption: Agosto 2022 - Presente
         description: | # this will include new lines to allow paragraphs
-            Desde el equipo de BPM he trabajado en proyectos de reingeniería y transformación digital de procesos, buscando eficiencias y mejoras en la gestión de los mismos.
+          Desde el equipo de BPM he trabajado en proyectos de reingeniería y transformación digital de procesos, buscando eficiencias y mejoras en la gestión de los mismos.
 
-            Como <mark>responsable de desarrollo</mark>, he creado y liderado un equipo de desarrollo de software tanto para clientes como para uso interno de la propia empresa de forma transveral. Esto se ha logrado con:
-              - Aplicaciones web con __Node.js, Express.js y React__.
-              - Aplicaciones de escritorio con __Python__, basado en la librería __PyQt5 y tkinter__.
-              - Automatización de tareas con __CPython y Python/Selenium__.
-              - Gestión de bases de datos SQL con __SQLite, MySQL y SQL Server__.
-            
-            En el ámbito de <mark>reingeniería de procesos</mark>, he trabajado en proyectos para entidades financieras, aseguradoras y clientes en el campo de la salud.
-              - __Auditoría de servicios__. Análisis de calidad de flujo de trabajo, calidad del dato producido y detección de ineficiencias.
-              - Desarrollo de nuevos modelos de negocio según especificaciones del proyecto.
+          Como <mark>responsable de desarrollo</mark>, he creado y liderado un equipo de desarrollo de software tanto para clientes como para uso interno de la propia empresa de forma transveral. Esto se ha logrado con:
+            - Aplicaciones web con __Node.js, Express.js y React__.
+            - Aplicaciones de escritorio con __Python__, basado en la librería __PyQt5 y tkinter__.
+            - Automatización de tareas con __CPython y Python/Selenium__.
+            - Gestión de bases de datos SQL con __SQLite, MySQL y SQL Server__.
+          
+          En el ámbito de <mark>reingeniería de procesos</mark>, he trabajado en proyectos para entidades financieras, aseguradoras y clientes en el campo de la salud.
+            - __Auditoría de servicios__. Análisis de calidad de flujo de trabajo, calidad del dato producido y detección de ineficiencias.
+            - Desarrollo de nuevos modelos de negocio según especificaciones del proyecto.
     
       - layout: left
         title: CSOIP
         sub_title: Desarrollador Junior / Control y Reporting 
         caption: Agosto 2017 - Agosto 2022
         description: | # this will include new lines to allow paragraphs
-            En el equipo de Control y Reporting, he trabajado directamente para la dirección de la empresa en capacidad de desarrollador y analista de datos. Mis tareas principales han sido:
-              - Desarrollo de aplicaciones web con __Node.js y Express.js__.
-              - Desarrollo de aplicaciones de escritorio con __Java__.
-              - Automatización de tareas con __CPython__.
-              - Gestión de bases de datos SQL con __SQLite, MySQL y SQL Server__.
-              - Cálculo de KPIs y SLAs para control y gestión de la productividad.
-              - Manejo de Qlikview, PowerBI y paquete Office.
+          En el equipo de Control y Reporting, he trabajado directamente para la dirección de la empresa en capacidad de desarrollador y analista de datos. Mis tareas principales han sido:
+            - Desarrollo de aplicaciones web con __Node.js y Express.js__.
+            - Desarrollo de aplicaciones de escritorio con __Java__.
+            - Automatización de tareas con __CPython__.
+            - Gestión de bases de datos SQL con __SQLite, MySQL y SQL Server__.
+            - Cálculo de KPIs y SLAs para control y gestión de la productividad.
+            - Manejo de Qlikview, PowerBI y paquete Office.
 
   - title: Educación # Title for the section
     layout: list # Type of content section (list/text)
@@ -89,8 +97,8 @@ content:
           | ----------------------------------------------  | :-----------------:   | :-----------------: | :-------------: | :---------------: | :---------------: |
           | ![UK](./images/uk.png "UK")       **INGLÉS**    | C2                    | C2                  | C2              | C2                | C2                |
           | ![GER](./images/german.png "GER") **ALEMÁN**    | B2                    | B2                  | B2              | B2                | B2                |
-          | ![FRA](./images/italy.png "FRA")  **FRANCÉS**   | B1                    | B1                  | B1              | B1                | B1                |
-          | ![ITA](./images/france.png "ITA") **ITALIANO**  | A2                    | A2                  | A2              | A2                | A2                |
+          | ![FRA](./images/france.png "FRA")  **FRANCÉS**  | B1                    | B1                  | B1              | B1                | B1                |
+          | ![ITA](./images/italy.png "ITA") **ITALIANO**   | A2                    | A2                  | A2              | A2                | A2                |
         
           
 
@@ -114,20 +122,20 @@ content:
 
           - **WebDev Full-Stack**: 3 años de experiencia profesional full-stack.
             * ![Node logo](./images/node-js.png "Node logo") **Back-end:**
-                - Dominio de **Node.js** y **express.js.**
-                - Dominio de mecanismos de **autenticación y login**, tanto manuales como mediante Passport (y opcionalmente la gestión del almacenamiento de sesiones).
-                - Integración con diferentes bases de datos (**SQLServer, MongoDB, SQLite, MySQL**), tanto manualmente como mediante ORM/ODMs (**Mongoose, Sequelize**).
-                - Implementación de modelos de trabajo estandarizados con separación **View-Route-Controller**.
-                - Gestión de ficheros con **multer**.
-                - Implementación de mecanismos de seguridad como cifrado de datos (**bcrypt**), cabeceras de seguridad/CSP (**helmet**),
-                - API de Excel mediante **exceljs**.
-                - Gestión de **cookies** y **sesiones**.
+              - Dominio de **Node.js** y **express.js.**
+              - Dominio de mecanismos de **autenticación y login**, tanto manuales como mediante Passport (y opcionalmente la gestión del almacenamiento de sesiones).
+              - Integración con diferentes bases de datos (**SQLServer, MongoDB, SQLite, MySQL**), tanto manualmente como mediante ORM/ODMs (**Mongoose, Sequelize**).
+              - Implementación de modelos de trabajo estandarizados con separación **View-Route-Controller**.
+              - Gestión de ficheros con **multer**.
+              - Implementación de mecanismos de seguridad como cifrado de datos (**bcrypt**), cabeceras de seguridad/CSP (**helmet**),
+              - API de Excel mediante **exceljs**.
+              - Gestión de **cookies** y **sesiones**.
             * ![Javascript logo](./images/js-file.png "Javascript logo") ![React logo](./images/physics.png "React logo") ![Bootstrap logo](./images/bootstrap.png "Bootstrap logo") **Front-end:**
-                - Dominio de herramientas de templating como **Ejs** y **Pug**.
-                - Dominio de **CSS** y **Sass**.
-                - Integración de Sass con Node/Express.
-                - Dominio de **Bootstrap 4.0-5.2**.
-                - Dominio de **React** con **JSX**.
+              - Dominio de herramientas de templating como **Ejs** y **Pug**.
+              - Dominio de **CSS** y **Sass**.
+              - Integración de Sass con Node/Express.
+              - Dominio de **Bootstrap 4.0-5.2**.
+              - Dominio de **React** con **JSX**.
 
 
           - ![Python logo](./images/python.png "Python logo") **Python**: 4 años de experiencia profesional.
@@ -141,11 +149,13 @@ content:
             - Limpieza y optimización de queries.
             - Batches.
 
+
           - ![Outsystems logo](./images/outsystems.png "Outsystems logo") **Low-code:** 1 año de experiencia trabajando con soluciones low-code.
             - Desarrollo de aplicaciones web y móviles con **Outsystems**.
               - Desarrollo full-stack funcional y visual.
             - Desarrollo de aplicaciones web con **ServiOps**.
               - Scripting con Groovy y Javascript.
+
 
           - ![Java logo](./images/java.png "Java logo") **Java:** 4 años de experiencia profesional.
             - Dominio de framework y filosofía de desarrollo **Spring MVC**.
@@ -177,7 +187,8 @@ content:
             - **Conocimientos de Groovy**.
             - **Conocimientos de C**.
             - **Conocimientos de Selenium**.
-          
+
+
 
           ---
 

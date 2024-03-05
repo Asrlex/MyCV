@@ -1,7 +1,15 @@
 ---
 ---
 
+<<<<<<< HEAD
 @import 'modern-resume-theme';
+=======
+@import '{{ site.theme }}';
+
+$primary: #ff0000;
+
+
+>>>>>>> 1a10fdf542b111ffeb44e48812d59222c595681c
 table, thead, th, td {
     font-size: 1.5rem;
     line-height: 2;
@@ -14,7 +22,11 @@ img:hover {
 
 ul {
     &:hover{
+<<<<<<< HEAD
         border-left: 2px solid #ff0000;
+=======
+        border-left: 2px solid $primary;
+>>>>>>> 1a10fdf542b111ffeb44e48812d59222c595681c
     }
 }
 

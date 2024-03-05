@@ -1,7 +1,7 @@
 ---
 ---
 
-@import 'modern-resume-theme';
+@import '{{ site.theme }}';
 table, thead, th, td {
     font-size: 1.5rem;
     line-height: 2;
@@ -10,32 +10,4 @@ table, thead, th, td {
 img:hover {
     transform: scale(1.1);
     transition: transform 0.3s;
-}
-
-ul {
-    &:hover{
-        border-left: 2px solid #ff0000;
-    }
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    border-spacing: 0;
-    background-color: #f5f5f5;
-    border: 1px solid #ddd;
-}
-
-thead {
-    background-color: #f9f9f9;
-}
-
-th, td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-}
-
-th {
-    font-weight: bold;
 }

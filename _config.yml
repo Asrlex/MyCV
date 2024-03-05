@@ -87,10 +87,10 @@ content:
         description: | # this will include new lines to allow paragraphs
           |                                                 | Comprensión auditiva  | Comprensión lectora | Producción oral | Interacción oral  | Expresión escrita |
           | ----------------------------------------------  | :-----------------:   | :-----------------: | :-------------: | :---------------: | :---------------: |
-          | **INGLÉS**   ![UK](./images/uk.png "UK")       | C2                    | C2                  | C2              | C2                | C2                |
-          | **ALEMÁN**   ![GER](./images/german.png "GER")  | B2                    | B2                  | B2              | B2                | B2                |
-          | **FRANCÉS**  ![FRA](./images/italy.png "FRA")   | B1                    | B1                  | B1              | B1                | B1                |
-          | **ITALIANO** ![ITA](./images/france.png "ITA")  | A2                    | A2                  | A2              | A2                | A2                |
+          | ![UK](./images/uk.png "UK")       **INGLÉS**    | C2                    | C2                  | C2              | C2                | C2                |
+          | ![GER](./images/german.png "GER") **ALEMÁN**    | B2                    | B2                  | B2              | B2                | B2                |
+          | ![FRA](./images/italy.png "FRA")  **FRANCÉS**   | B1                    | B1                  | B1              | B1                | B1                |
+          | ![ITA](./images/france.png "ITA") **ITALIANO**  | A2                    | A2                  | A2              | A2                | A2                |
         
           
 

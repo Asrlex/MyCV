@@ -5,6 +5,9 @@ favicon: images/favicon.ico
 # Content configuration version
 version: 2
 
+# Theme
+theme: jekyll-theme-cayman
+
 # Personal info
 name: Alejandro Sánchez Rodríguez
 title: Software Engineer & Product Manager
@@ -35,7 +38,8 @@ content:
       - layout: left
         title: Servinform
         link: servinform.com
-        # link_text: boringcompany.com
+        link_text: |
+          ![SVF logo](./images/svf.png "SVF logo")
         sub_title: Responsable de Desarrollo y Reingeniería de Procesos 
         caption: Agosto 2022 - Presente
         description: | # this will include new lines to allow paragraphs
@@ -85,12 +89,12 @@ content:
         title: Dominio de idiomas
         sub_title: "Idioma nativo: Español"
         description: | # this will include new lines to allow paragraphs
-          |                                                 | Comprensión auditiva  | Comprensión lectora | Producción oral | Interacción oral  | Expresión escrita |
-          | ----------------------------------------------  | :-----------------:   | :-----------------: | :-------------: | :---------------: | :---------------: |
-          | **INGLÉS**   ![UK](./images/uk.png "UK"])       | C2                    | C2                  | C2              | C2                | C2                |
-          | **ALEMÁN**   ![GER](./images/german.png "GER")  | B2                    | B2                  | B2              | B2                | B2                |
-          | **FRANCÉS**  ![FRA](./images/italy.png "FRA")   | B1                    | B1                  | B1              | B1                | B1                |
-          | **ITALIANO** ![ITA](./images/france.png "ITA")  | A2                    | A2                  | A2              | A2                | A2                |
+          |                                               | Comprensión auditiva  | Comprensión lectora | Producción oral | Interacción oral  | Expresión escrita |
+          | --------------------------------------------- | :-----------------:   | :-----------------: | :-------------: | :---------------: | :---------------: |
+          | **INGLÉS**   ![UK](./images/uk.png "UK")      | C2                    | C2                  | C2              | C2                | C2                |
+          | **ALEMÁN**   ![GER](./images/german.png "GER")| B2                    | B2                  | B2              | B2                | B2                |
+          | **FRANCÉS**  ![FRA](./images/italy.png "FRA") | B1                    | B1                  | B1              | B1                | B1                |
+          | **ITALIANO** ![ITA](./images/france.png "ITA")| A2                    | A2                  | A2              | A2                | A2                |
         
           
 
@@ -99,8 +103,8 @@ content:
     content:
       - layout: left
         title: Conocimientos
-        quote: >
-          ¿Qué sería de la vida, si no tuviéramos el valor de intentar algo nuevo? (Vincent Van Gogh)
+        sub_title: |
+          Tecnologías, pilas de desarrollo y herramientas en las que tengo experiencia.
         description: | # this will include new lines to allow paragraphs
           
           - ![VS logo](./images/visual-studio.png "VS logo") ![Bash logo](./images/gnu-bash.png "Bash logo") **General**
@@ -108,7 +112,7 @@ content:
             - Seguimiento de buenas prácticas y estilos.
             - Experiencia con IDEs y editores como **VSCode, Eclipse, IntelliJ y PyCharm**.
             - Experiencia gestionando proyectos en **OpenProject**.
-            - Dominio de entorno **Linux** y **bash* para gestión de archivos, permisos y paquetes.
+            - Dominio de entorno **Linux** y **bash* para gestión de archivos, permisos y paquetes. 4 años de experiencia.
 
 
           - **WebDev Full-Stack**: 3 años de experiencia profesional full-stack.
@@ -140,11 +144,13 @@ content:
             - Limpieza y optimización de queries.
             - Batches.
 
+
           - ![Outsystems logo](./images/outsystems.png "Outsystems logo") **Low-code:** 1 año de experiencia trabajando con soluciones low-code.
             - Desarrollo de aplicaciones web y móviles con **Outsystems**.
               - Desarrollo full-stack funcional y visual.
             - Desarrollo de aplicaciones web con **ServiOps**.
               - Scripting con Groovy y Javascript.
+
 
           - ![Java logo](./images/java.png "Java logo") **Java:** 4 años de experiencia profesional.
             - Dominio de framework y filosofía de desarrollo **Spring MVC**.
@@ -187,9 +193,6 @@ content:
           - title:  Asrlex/MyCV
             icon: fab fa-github
             url: github.com/Asrlex/MyCV
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
           
           ![Node logo](./images/node-js.png "Node logo") **Node**
@@ -208,6 +211,14 @@ content:
               - Integración con SQLite y **SQLServer**.
               - Indexado de documentos en diferentes directorios y discos de red.
               - Desplegada en servidor con **Microsoft Server**.
+            - **Gestión de pólizas** (**SEGUROS**)
+              - Aplicación web para la gestión de pólizas de seguros y pensiones para cliente.
+              - **API REST** con express.js.
+              - Front con **React**, **BS 5.2**, **Sass** y **Ejs**.
+              - Login manual.
+              - Integración con **SQLServer**.
+              - Interacción con **APIs de cliente**.
+              - Despliegue en **Linux**.
             - **Travel Journal** (**PERSONAL**)
               - **Webapp** de journaling de viajes que permite añadir y gestionar destinos agrupados en viajes.
               - API REST con express.js.
@@ -217,16 +228,8 @@ content:
               - Gestión de **hosting de imágenes con Cloudinary**.
               - **Geolocalización** mediante **MapBox API** para visualización y agrupación de marcadores.
               - Despliegue inicial en **Heroku** desde Github y transferido a Firebase.
-              ![Landing Page](./images/trjournal1.png "Landing Page")
+              ![Landing](./images/trjournal1.png "Landing")
               ![Resources](./images/trjournal2.png "Resources")
-            - **Gestión de pólizas** (**SEGUROS**)
-              - Aplicación web para la gestión de pólizas de seguros y pensiones para cliente.
-              - **API REST** con express.js.
-              - Front con **React**, **BS 5.2**, **Sass** y **Ejs**.
-              - Login manual.
-              - Integración con **SQLServer**.
-              - Interacción con **APIs de cliente**.
-              - Despliegue en **Linux**.
 
           ![Java logo](./images/java.png "Java logo") **Java**
             - **Agenda de operaciones** (**BANCA**)
@@ -305,9 +308,6 @@ content:
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
-
-# Build settings
-remote_theme: sproogen/resume-theme
 
 sass:
   sass_dir: _sass

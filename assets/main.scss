@@ -10,3 +10,8 @@ img:hover {
     transform: scale(1.1);
     transition: transform 0.3s;
 }
+
+tr:hover {
+    background-color: rgb(54, 50, 50);
+    transition: background-color 0.3s;
+}

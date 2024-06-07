@@ -14,10 +14,7 @@ website: https://asrlex.github.io/MyCV/
 additional_links:
 - title: ES
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
-- title: EN
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://asrlex.github.io/MyCV/
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -99,8 +96,6 @@ content:
           | ![GER](./images/german.png "GER") **ALEMÁN**    | B2                    | B2                  | B2              | B2                | B2                |
           | ![FRA](./images/france.png "FRA")  **FRANCÉS**  | B1                    | B1                  | B1              | B1                | B1                |
           | ![ITA](./images/italy.png "ITA") **ITALIANO**   | A2                    | A2                  | A2              | A2                | A2                |
-        
-          
 
   - title: Competencias de desarrollo # Title for the section
     layout: list # Type of content section (list/text)
@@ -108,8 +103,7 @@ content:
       - layout: top-middle
         title: Conocimientos
         sub_title: |
-          Tecnologías, pilas de desarrollo y herramientas en las que tengo experiencia.        
-          
+          Tecnologías, pilas de desarrollo y herramientas en las que tengo experiencia. En la siguiente sección se detallan proyectos en los que he trabajado con estas tecnologías.
         description: | # this will include new lines to allow paragraphs
           
           - ![VS logo](./images/visual-studio.png "VS logo") ![Bash logo](./images/gnu-bash.png "Bash logo") **General**
@@ -213,6 +207,22 @@ content:
               - Login manual.
               - Integración con SQLite y **SQLServer**.
               - Desplegadas en servidor con **Microsoft Server**.
+            - **Gestión de pólizas** (**SEGUROS**)
+              - Aplicación web para la gestión de pólizas de seguros y pensiones para cliente.
+              - **API REST** con express.js.
+              - Front con **React** y tailwind.
+              - Login a través de JWT.
+              - Integración con **MariaDB**.
+              - Interacción con **APIs de cliente**.
+              - Despliegue en **Linux**.
+            - **Gestión del hogar** (**PERSONAL**)
+              - Aplicación web para la gestión de tareas y compras del hogar.
+              - **API REST** con express.js.
+              - Front con **React** y tailwind.
+              - Diseño optimizado para web y movil.
+              - Login manual.
+              - Integración con **SQLite**.
+              - Despliegue en **entorno personal**.
             - **Portal de empleados** (**RRHH**)
               - Webapp para agrupar y mostrar todos los recursos disponibles para los empleados de la empresa, y accesos a otras aplicaciones y utilidades, así como gestión de facturación de los departamentos.
               - **API REST** con express.js
@@ -232,14 +242,6 @@ content:
               - Despliegue inicial en **Heroku** desde Github y transferido a Firebase.
               ![Landing Page](./images/trjournal1.png "Landing Page")
               ![Resources](./images/trjournal2.png "Resources")
-            - **Gestión de pólizas** (**SEGUROS**)
-              - Aplicación web para la gestión de pólizas de seguros y pensiones para cliente.
-              - **API REST** con express.js.
-              - Front con **React**, **BS 5.2**, **Sass** y **Ejs**.
-              - Login manual.
-              - Integración con **SQLServer**.
-              - Interacción con **APIs de cliente**.
-              - Despliegue en **Linux**.
 
           ![Java logo](./images/java.png "Java logo") **Java**
             - **Agenda de operaciones** (**BANCA**)
@@ -266,6 +268,13 @@ content:
               - Identificación manual.
 
             ![Python logo](./images/python.png "Python logo") **Python** 
+            - **Conversor de archivos** (**USO INTERNO**)
+              - Script que, a partir de una serie de parámetros, convierte una serie de ficheros de un formato a otro.
+              - CLI.
+            - **Interfaz con Sharepoint** (**USO INTERNO**)
+              - Script que, a partir de una serie de parámetros, sube y descarga ficheros de un directorio de Sharepoint.
+              - CLI.
+              - API REST de Office365.
             - **Renombramiento de archivos** (**CLIENTE**)
               - Script que, a partir de un maestro en Excel, renombra una serie de archivos de un directorio concreto y los encarpeta según los filtros especificados.
               - CLI.
@@ -312,8 +321,6 @@ content:
             - Formación online para profundizar en control de versiones.
           - **Docker y Kubernetes**
             - Formación online para profundizar en despliegue de aplicaciones.
-          - **React**
-            - Formación online para profundizar en desarrollo front-end.
 
 # Footer
 footer_show_references: true
